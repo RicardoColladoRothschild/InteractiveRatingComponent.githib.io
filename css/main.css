@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "OverPass";
+  src: url("../font/Overpass.ttf") format("truetype");
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,4 +10,5 @@
 
 html {
   font-size: 62.5%;
+  font-family: "OverPass", serif;
 }
