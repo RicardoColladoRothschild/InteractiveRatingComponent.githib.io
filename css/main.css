@@ -20,7 +20,8 @@ body {
   place-items: center;
 }
 body .main-container {
-  width: 360px;
+  width: 330px;
+  padding: 15px;
   height: auto;
   min-width: 320px;
 }
