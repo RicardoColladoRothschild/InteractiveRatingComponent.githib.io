@@ -18,10 +18,13 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
+  background-color: #121417;
 }
 body .main-container {
   width: 330px;
-  padding: 15px;
+  padding: 20px;
   height: auto;
   min-width: 320px;
+  background-color: #252d37;
+  border-radius: 16px;
 }
