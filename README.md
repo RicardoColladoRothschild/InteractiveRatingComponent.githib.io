@@ -43,3 +43,6 @@ flexCentering();
     This function is help to center an item into the middle of its containing, using a flexbox.
     display:flex | justify-content: center | align-items: center
 
+### Class
+* .coloredSelection: This calss is created from the main.js file, when a user click on ones of the numbers, this class is added as a new class to the div that represent the number the user select. Within the mains.scss file, i use "extend" so this class can extend the propieties already apply to a circle, that has not been selected.    
+

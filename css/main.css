@@ -62,7 +62,7 @@ body .main-container .circle-container {
   gap: 17px;
   margin-bottom: 17px;
 }
-body .main-container .circle-container .circle {
+body .main-container .circle-container .circle, body .main-container .circle-container .coloredSelection {
   width: 41px;
   height: 41px;
   border-radius: 50%;
@@ -73,10 +73,14 @@ body .main-container .circle-container .circle {
   color: #7c8798;
   background-color: #1f2630;
 }
-body .main-container .circle-container .circle:hover {
+body .main-container .circle-container .circle:hover, body .main-container .circle-container .coloredSelection:hover {
   background-color: #fb7413;
   color: white;
   cursor: pointer;
+}
+body .main-container .circle-container .coloredSelection {
+  color: white;
+  background-color: #959eac;
 }
 body .main-container .primary-button {
   margin-bottom: 20px;
