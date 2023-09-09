@@ -25,7 +25,7 @@ body .main-container {
   padding: 30px;
   height: auto;
   min-width: 320px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), #252d37;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), #252d37;
   border-radius: 16px;
 }
 body .main-container .start-image {
