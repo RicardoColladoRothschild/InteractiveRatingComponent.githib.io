@@ -1,0 +1,8 @@
+class SelectionClass{
+    
+    constructor(rate){
+
+    }
+
+    
+}
