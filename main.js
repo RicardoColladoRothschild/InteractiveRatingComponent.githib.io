@@ -1,6 +1,9 @@
 let rate = 0;
 const circle_1 = document.querySelector('.circle1');
 const circle_2 = document.querySelector('.circle2');
+const circle_3 = document.querySelector('.circle3');
+const circle_4 = document.querySelector('.circle4');
+const circle_5 = document.querySelector('.circle5');
 
 
 
@@ -15,6 +18,7 @@ function colorSelection(selection){
         case 1:
             circle_1.setAttribute('class','coloredSelection');
             break;
+        case 2:    
     }
 }
 
