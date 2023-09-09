@@ -1,20 +1,8 @@
-<<<<<<< HEAD
-
-    
-  
-    const circle_1 = document.querySelector('.circle1');
-    const circle_2 = document.querySelector('.circle2');
-    const circle_3 = document.querySelector('.circle3');
-    const circle_4 = document.querySelector('.circle4');
-    const circle_5 = document.querySelector('.circle5');
-  
-=======
 const circle_1 = document.querySelector('.circle1');
 const circle_2 = document.querySelector('.circle2');
 const circle_3 = document.querySelector('.circle3');
 const circle_4 = document.querySelector('.circle4');
 const circle_5 = document.querySelector('.circle5');
->>>>>>> main
 
     function deSelect(currentSelection){
         switch(currentSelection){
@@ -55,32 +43,8 @@ const circle_5 = document.querySelector('.circle5');
 
     function colorSelection(selection){
 
-<<<<<<< HEAD
-        switch(selection){
-            case 1:
-                circle_1.classList.add('coloredSelection');
-                break;
-            case 2:    
-                circle_2.classList.add('coloredSelection');
-                break;
-            case 3:
-                circle_3.classList.add('coloredSelection');
-                break;
-            case 4: 
-                circle_4.classList.add('coloredSelection');
-                break;        
-        
-            case 5:
-                circle_5.classList.add('coloredSelection');
-                break;
-            }
-    }
-
-    
-=======
 let rate = 0;
 //functions
->>>>>>> main
 
 //functions
 
