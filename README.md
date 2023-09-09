@@ -35,3 +35,11 @@ An interactie rating component, made using JavaScript for interaction with the u
 - Family: [Overpass](https://fonts.google.com/specimen/Overpass)
 - Weights: 400, 700
 
+## Functionalities Sass
+
+**mixin**
+flexCentering();
+
+    This function is help to center an item into the middle of its containing, using a flexbox.
+    display:flex | justify-content: center | align-items: center
+

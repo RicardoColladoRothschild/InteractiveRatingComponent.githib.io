@@ -3,6 +3,12 @@
     src: url('../font/Overpass.ttf' ) format('truetype');
 }
 
+@mixin flexCentering(){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
 //primary colors:
 $primary-color: #fb7413;
 $background-primary-color:#252d37;
@@ -13,6 +19,7 @@ $letter-color-secondary:#7c8798;
 $dark-background:#121417;
 $just-white:#ffff;
 $auxiliar-color:#1f2630;
+
 
 *{
     box-sizing: border-box;
@@ -48,9 +55,7 @@ body{
                 height:37px;
                 background-color:#252e37de;
                 border-radius: 50px;
-                displaY:flex;
-                justify-content: center;
-                align-items: center;
+                @include flexCentering;
 
                     img{
                         width:16px;
@@ -70,7 +75,7 @@ body{
                 line-height: 2.1rem;
                 color:$letter-color-secondary;
                 font-weight: 500;
-                margin-bottom:10px;
+                margin-bottom:27px;
                 
             }
             .circle-container{
@@ -78,18 +83,40 @@ body{
                 height:51px;
                 display:flex;
                 gap:17px;
-                margin-bottom:25px;
+                margin-bottom:17px;
 
                     .circle{
                         width:41px;
                         height:41px;
                         border-radius: 50%;
-                        display:flex;
-                        justify-content: center;
-                        align-items: center;
+                        @include flexCentering;
                         font-size:1.4rem;
                         color:$letter-color-secondary;
                         background-color:#1f2630;
+                        &:hover{
+                            background-color: $primary-color;
+                            color:$just-white;
+                            cursor:pointer;
+                        }
+                    }
+            }
+
+            .primary-button{
+                margin-bottom:20px;
+                width:100%;
+                height:47px;
+                padding:8px;
+                color:$just-white;
+                font-size:1.3rem;
+                letter-spacing:2px;
+                font-family: 'OverPass',serif;
+                border: none;
+                border-radius: 21px;
+                background-color: $primary-color;
+                    &:hover{
+                        background-color: $just-white;
+                        color:$primary-color;
+                        cursor: pointer;
                     }
             }
        }

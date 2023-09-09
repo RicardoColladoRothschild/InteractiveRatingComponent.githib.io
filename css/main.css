@@ -34,7 +34,7 @@ body .main-container .start-image {
   height: 37px;
   background-color: rgba(37, 46, 55, 0.8705882353);
   border-radius: 50px;
-  displaY: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -53,14 +53,14 @@ body .main-container p {
   line-height: 2.1rem;
   color: #7c8798;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 27px;
 }
 body .main-container .circle-container {
   width: 100%;
   height: 51px;
   display: flex;
   gap: 17px;
-  margin-bottom: 25px;
+  margin-bottom: 17px;
 }
 body .main-container .circle-container .circle {
   width: 41px;
@@ -72,4 +72,27 @@ body .main-container .circle-container .circle {
   font-size: 1.4rem;
   color: #7c8798;
   background-color: #1f2630;
+}
+body .main-container .circle-container .circle:hover {
+  background-color: #fb7413;
+  color: white;
+  cursor: pointer;
+}
+body .main-container .primary-button {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 47px;
+  padding: 8px;
+  color: white;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  font-family: "OverPass", serif;
+  border: none;
+  border-radius: 21px;
+  background-color: #fb7413;
+}
+body .main-container .primary-button:hover {
+  background-color: white;
+  color: #fb7413;
+  cursor: pointer;
 }
