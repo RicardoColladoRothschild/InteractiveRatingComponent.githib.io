@@ -13,6 +13,7 @@ $letter-color-secondary:#7c8798;
 $dark-background:#121417;
 $just-white:#ffff;
 $auxiliar-color:#1f2630;
+
 *{
     box-sizing: border-box;
     padding:0;
@@ -66,9 +67,30 @@ body{
 
             p{
                 font-size:1.3rem;
-                line-height: 2.3rem;
+                line-height: 2.1rem;
                 color:$letter-color-secondary;
+                font-weight: 500;
                 margin-bottom:10px;
+                
+            }
+            .circle-container{
+                width:100%;
+                height:51px;
+                display:flex;
+                gap:17px;
+                margin-bottom:25px;
+
+                    .circle{
+                        width:41px;
+                        height:41px;
+                        border-radius: 50%;
+                        display:flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size:1.4rem;
+                        color:$letter-color-secondary;
+                        background-color:#1f2630;
+                    }
             }
        }
 }
