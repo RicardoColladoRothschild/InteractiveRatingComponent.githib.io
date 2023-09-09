@@ -126,4 +126,37 @@ body{
                     }
             }
        }
+
+       .lastview-container{
+        @include flexCentering;
+        flex-direction: column;
+
+            .text-container{
+                margin-top:27px;
+                color:$primary-color;
+                font-size:1.4rem;
+                font-weight: 300;
+                background-color: $auxiliar-color;
+                width:200px;
+                text-align: center;
+                padding:6px;
+                padding-left:2px;
+                padding-right:2px;
+                border-radius: 37px;
+
+            }
+            h2{
+                font-size:3.5rem;
+                color:$just-white;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+            .main-container-lastP{
+                color:$letter-color-secondary;
+                background-color: none;
+                text-align: center;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+            }
+       }
 }

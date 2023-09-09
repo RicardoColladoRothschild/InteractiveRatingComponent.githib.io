@@ -12,8 +12,14 @@ let rate = 0;
 //functions
 
 btnSubmit.addEventListener('click', function (){
+    mainContainer.classList.add('lastview-container');
     mainContainer.innerHTML = `
-        <div></div>
+        <div class="image-container--thankView">
+            <img src="./img/illustration-thank-you.svg" alt="Thank you image">
+        </div>
+        <p class="text-container">You selected ${rate} out of 5</p>
+        <h2>Thank you!</h2>
+        <p class="main-container-lastP">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
     `;
 
 });

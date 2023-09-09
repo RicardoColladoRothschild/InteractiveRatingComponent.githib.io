@@ -100,3 +100,35 @@ body .main-container .primary-button:hover {
   color: #fb7413;
   cursor: pointer;
 }
+body .lastview-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .lastview-container .text-container {
+  margin-top: 27px;
+  color: #fb7413;
+  font-size: 1.4rem;
+  font-weight: 300;
+  background-color: #1f2630;
+  width: 200px;
+  text-align: center;
+  padding: 6px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 37px;
+}
+body .lastview-container h2 {
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+body .lastview-container .main-container-lastP {
+  color: #7c8798;
+  background-color: none;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
