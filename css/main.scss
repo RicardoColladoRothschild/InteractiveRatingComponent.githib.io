@@ -11,8 +11,8 @@ $letter-color-title:#959eac;
 //secondary colors
 $letter-color-secondary:#7c8798;
 $dark-background:#121417;
-
-
+$just-white:#ffff;
+$auxiliar-color:#1f2630;
 *{
     box-sizing: border-box;
     padding:0;
@@ -34,11 +34,41 @@ body{
 
     .main-container{
         width:330px;
-        padding:20px;
+        padding:30px;
         height:auto;
         min-width:320px;
-        background-color: $background-primary-color;
+        background:linear-gradient(rgba(0, 0, 0, 0.5), transparent), #252d37;
+        
         border-radius: 16px;
 
+            .start-image{
+                margin-bottom:22px;
+                width:37px;
+                height:37px;
+                background-color:#252e37de;
+                border-radius: 50px;
+                displaY:flex;
+                justify-content: center;
+                align-items: center;
+
+                    img{
+                        width:16px;
+                        height:16px;
+                    }
+            }
+
+            h1{
+                color:white;
+                font-size:2.6rem;
+                font-weight:500;
+                margin-bottom:10px;
+            }
+
+            p{
+                font-size:1.3rem;
+                line-height: 2.3rem;
+                color:$letter-color-secondary;
+                margin-bottom:10px;
+            }
        }
 }

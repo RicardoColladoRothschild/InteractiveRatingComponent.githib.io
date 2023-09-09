@@ -22,9 +22,35 @@ body {
 }
 body .main-container {
   width: 330px;
-  padding: 20px;
+  padding: 30px;
   height: auto;
   min-width: 320px;
-  background-color: #252d37;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), #252d37;
   border-radius: 16px;
+}
+body .main-container .start-image {
+  margin-bottom: 22px;
+  width: 37px;
+  height: 37px;
+  background-color: rgba(37, 46, 55, 0.8705882353);
+  border-radius: 50px;
+  displaY: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main-container .start-image img {
+  width: 16px;
+  height: 16px;
+}
+body .main-container h1 {
+  color: white;
+  font-size: 2.6rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+body .main-container p {
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+  color: #7c8798;
+  margin-bottom: 10px;
 }
