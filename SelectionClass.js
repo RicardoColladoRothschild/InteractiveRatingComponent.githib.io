@@ -1,6 +1,3 @@
-import { circle_1, circle_2, circle_3, circle_4, circle_5 } from './main.js';
-
-
 class SelectionClass {
     
    
