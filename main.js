@@ -4,20 +4,24 @@ const circle_3 = document.querySelector('.circle3');
 const circle_4 = document.querySelector('.circle4');
 const circle_5 = document.querySelector('.circle5');
 
-
+const mainContainer = document.querySelector('.main-container');
+const btnSubmit = document.querySelector('#btnSubmit');
 
 
 let rate = 0;
 //functions
 
+btnSubmit.addEventListener('click', function (){
+    mainContainer.innerHTML = `
+        <div></div>
+    `;
 
+});
 
 
 function ratePicker(rating){
     rate = rating;
-    /*
-    deSelect(rate);
-    colorSelection(rate);*/
+    
     let selection = new SelectionClass(rate);
     selection.colorSelection(rate);
     selection.deSelect(rate);
